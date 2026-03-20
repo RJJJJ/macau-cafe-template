@@ -108,7 +108,7 @@ onUnmounted(() => {
         <div class="flex justify-between items-center h-16">
           
           <div class="flex-shrink-0 flex items-center cursor-pointer" @click="currentPage = 'home'">
-            <h1 class="font-heading text-xl font-bold text-primary tracking-wider">嘉飛咖啡</h1>
+            <h1 class="font-heading text-xl font-bold text-primary tracking-wider">F & A Coffee</h1>
           </div>
           
           <nav class="hidden md:flex space-x-8">
