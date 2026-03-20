@@ -4,6 +4,7 @@ import MenuPage from './components/MenuPage.vue'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 
+
 gsap.registerPlugin(ScrollTrigger)
 
 const isMenuOpen = ref(false)
@@ -38,9 +39,13 @@ const initCanvasAnimation = () => {
   }
 
   function render() {
-    if (!images[playhead.frame]) return
+    const img = images[playhead.frame]
+    
+    // 💡 強化防護：如果圖片不存在、還沒載入完、或者是壞掉的，就先不要畫！
+    if (!img || !img.complete || img.naturalWidth === 0) return 
+    
     context.clearRect(0, 0, canvas.width, canvas.height)
-    context.drawImage(images[playhead.frame], 0, 0, canvas.width, canvas.height)
+    context.drawImage(img, 0, 0, canvas.width, canvas.height)
   }
 
   // 如果有舊的動畫，先清理掉
