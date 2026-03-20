@@ -298,7 +298,7 @@ onUnmounted(() => {
             </div>
             <div class="grid grid-cols-2 md:grid-cols-1 gap-4 md:gap-6 h-auto md:h-[600px]">
               <div class="overflow-hidden rounded-sm h-[40vw] md:h-full group bg-beige/30 relative">
-                <img src="https://images.unsplash.com/photo-1495474472207-464a8d9cb112?q=80&w=800&auto=format&fit=crop" alt="手沖咖啡細節" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-in-out">
+                <img src="https://images.pexels.com/photos/374885/pexels-photo-374885.jpeg?auto=compress&cs=tinysrgb&w=800" alt="手沖咖啡細節" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-in-out">
               </div>
               <div class="overflow-hidden rounded-sm h-[40vw] md:h-full group bg-beige/30 relative">
                 <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?q=80&w=800&auto=format&fit=crop" alt="木質空間細節" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-in-out">
@@ -338,7 +338,7 @@ onUnmounted(() => {
             <div class="space-y-10 px-2 sm:px-0 text-center md:text-left">
               <div>
                 <span class="text-xs sm:text-sm font-medium tracking-widest text-wood uppercase block mb-3">Visit Us</span>
-                <h2 class="text-3xl md:text-4xl font-heading text-primary mb-4">Oak & Dawn Coffee</h2>
+                <h2 class="text-3xl md:text-4xl font-heading text-primary mb-4">F & A Coffee</h2>
                 <p class="text-sm sm:text-base text-secondary/80">澳門氹仔某某街 18 號地下</p>
               </div>
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left">
