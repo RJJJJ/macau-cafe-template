@@ -108,7 +108,7 @@ onUnmounted(() => {
         <div class="flex justify-between items-center h-16">
           
           <div class="flex-shrink-0 flex items-center cursor-pointer" @click="currentPage = 'home'">
-            <h1 class="font-heading text-xl font-bold text-primary tracking-wider">Oak & Dawn</h1>
+            <h1 class="font-heading text-xl font-bold text-primary tracking-wider">F & A</h1>
           </div>
           
           <nav class="hidden md:flex space-x-8">
@@ -397,7 +397,7 @@ onUnmounted(() => {
         </div>
         <div class="w-8 h-px bg-bgLight/20 my-4"></div>
         <p class="text-xs text-bgLight/40 font-light tracking-wide">
-          © 2026 Oak & Dawn Coffee. All rights reserved.
+          © 2026 F & A Coffee. All rights reserved.
         </p>
       </div>
     </footer>
