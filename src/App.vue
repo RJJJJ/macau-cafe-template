@@ -20,7 +20,7 @@ const initCanvasAnimation = () => {
   const context = canvas.getContext('2d')
 
   const frameCount = 105
-  const currentFrame = index => `/coffee-sequence/ezgif-frame-${(index + 1).toString().padStart(3, '0')}.jpg`
+  const currentFrame = index => `${import.meta.env.BASE_URL}coffee-sequence/ezgif-frame-${(index + 1).toString().padStart(3, '0')}.jpg`
 
   const images = []
   const playhead = { frame: 0 }
