@@ -326,7 +326,7 @@ onUnmounted(() => {
               </div>
             </div>
             <div class="w-full md:w-1/2 h-[60vw] md:h-auto order-1 md:order-2 relative bg-beige/30">
-              <img src="https://images.unsplash.com/photo-1495147466023-af5c19cb3738?q=80&w=1000&auto=format&fit=crop" alt="季節限定甜點與飲品" class="absolute inset-0 w-full h-full object-cover">
+              <img src="https://images.unsplash.com/photo-1602351447937-745cb720612f?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="季節限定甜點與飲品" class="absolute inset-0 w-full h-full object-cover">
             </div>
           </div>
         </div>
