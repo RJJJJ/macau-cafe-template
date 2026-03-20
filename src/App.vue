@@ -386,7 +386,7 @@ onUnmounted(() => {
 
     <footer class="bg-primary text-bgLight py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center space-y-6">
-        <h2 class="font-heading text-2xl tracking-widest cursor-pointer" @click="currentPage = 'home'">Oak & Dawn</h2>
+        <h2 class="font-heading text-2xl tracking-widest cursor-pointer" @click="currentPage = 'home'">F & A Coffee</h2>
         <p class="text-bgLight/70 text-sm max-w-sm mx-auto font-light leading-relaxed">
           Coffee, comfort, and a little quiet in Macau.
         </p>
